@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SocialWatch</string>
+
+    <!-- Navigation -->
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_manage_apps">Apps</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_title">Dashboard</string>
+    <string name="total_today">Total Today</string>
+    <string name="no_usage_data">No usage data yet</string>
+    <string name="no_usage_subtitle">Start monitoring to track your social media usage</string>
+    <string name="monitoring_active">Monitoring Active</string>
+    <string name="monitoring_inactive">Monitoring Inactive</string>
+    <string name="view_statistics">View Statistics</string>
+
+    <!-- Statistics -->
+    <string name="stats_title">Statistics</string>
+    <string name="day">Day</string>
+    <string name="week">Week</string>
+    <string name="month">Month</string>
+    <string name="total_this_week">Total this week</string>
+    <string name="total_this_month">Total this month</string>
+
+    <!-- Manage Apps -->
+    <string name="manage_apps_title">Tracked Apps</string>
+    <string name="add_app">Add App</string>
+    <string name="search_apps">Search apps…</string>
+    <string name="no_tracked_apps">No apps being tracked</string>
+    <string name="delete_app_title">Remove App</string>
+    <string name="delete_app_message">Stop tracking %1$s?</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="monitoring_section">Monitoring</string>
+    <string name="start_on_boot">Start on Boot</string>
+    <string name="start_on_boot_desc">Automatically start monitoring when device turns on</string>
+    <string name="appearance_section">Appearance</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="dark_mode_desc">Use dark theme</string>
+    <string name="time_limits_section">Time Limits</string>
+    <string name="set_time_limit">Set Time Limit</string>
+    <string name="no_limit">No limit</string>
+    <string name="about_section">About</string>
+    <string name="version">Version</string>
+    <string name="about_app">About SocialWatch</string>
+    <string name="about_description">SocialWatch helps you stay aware of your social media usage. Track time, set limits, and build healthier digital habits.</string>
+
+    <!-- Permissions -->
+    <string name="permission_title">Usage Access Required</string>
+    <string name="permission_description">SocialWatch needs usage access permission to detect which apps you\'re using and track your social media screen time.</string>
+    <string name="permission_button">Open Settings</string>
+    <string name="notification_permission_title">Notifications</string>
+    <string name="notification_permission_desc">Allow notifications to see your real-time usage in the notification bar</string>
+    <string name="overlay_permission_title">Display Over Apps</string>
+    <string name="overlay_permission_desc">Allow overlay to show time limit warnings on top of social media apps</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_title_1">Track Your Time</string>
+    <string name="onboarding_desc_1">See exactly how much time you spend on social media apps every day</string>
+    <string name="onboarding_title_2">Set Limits</string>
+    <string name="onboarding_desc_2">Configure daily time limits for each app and get notified when you reach them</string>
+    <string name="onboarding_title_3">Build Better Habits</string>
+    <string name="onboarding_desc_3">View your usage trends over days, weeks, and months to understand your habits</string>
+    <string name="get_started">Get Started</string>
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+
+    <!-- Time Limit Overlay -->
+    <string name="time_limit_reached">Time Limit Reached</string>
+    <string name="time_limit_message">You\'ve spent %1$s on %2$s today</string>
+    <string name="dismiss">Dismiss</string>
+
+    <!-- Notifications -->
+    <string name="channel_monitoring">Usage Monitoring</string>
+    <string name="channel_monitoring_desc">Shows which social media app is active and your usage time</string>
+    <string name="channel_alerts">Time Limit Alerts</string>
+    <string name="channel_alerts_desc">Alerts when you exceed your daily time limits</string>
+    <string name="notification_monitoring_idle">Monitoring active — no social media in use</string>
+    <string name="notification_monitoring_active">%1$s — %2$s today</string>
+    <string name="notification_limit_title">Time limit reached</string>
+    <string name="notification_limit_text">You\'ve spent %1$s on %2$s today</string>
+
+    <!-- Time Limit Picker -->
+    <string name="time_limit_for">Time Limit for %1$s</string>
+    <string name="minutes_label">%1$d min</string>
+    <string name="hours_label">%1$d hr</string>
+    <string name="custom">Custom</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="remove_limit">Remove Limit</string>
+</resources>
